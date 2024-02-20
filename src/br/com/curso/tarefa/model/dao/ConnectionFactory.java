@@ -32,15 +32,15 @@ public class ConnectionFactory {
 
 			// Configurando a nossa conexão com um banco de dados//
 
-			String serverName = "localhost:3306";    //caminho do servidor do BD
+			String serverName = SERVER_NAME;    //caminho do servidor do BD
 
-			String mydatabase ="tarefa";        //nome do seu banco de dados
+			String mydatabase =DATABASE_NAME;        //nome do seu banco de dados
 
 			String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 
-			String username = "alves";        //nome de um usuário de seu BD      
+			String username = DATABASE_USERNAME;        //nome de um usuário de seu BD      
 
-			String password = "Aula@02.";      //sua senha de acesso
+			String password = DATABASE_PASSWORD;      //sua senha de acesso
 
 			connection = DriverManager.getConnection(url, username, password);
 

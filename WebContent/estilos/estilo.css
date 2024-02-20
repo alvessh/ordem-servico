@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/*FORMATANDO O CORPO DO SITE*/
+body{
+    background-color: #ccc;
+    margin: 0px;
+}
+/*FORMATANDO A DIV CORPO*/
+#cpbody{
+    width: 1024px;
+    margin: 0px auto;
+    margin-top: 40px;
+    background-color: #6495ED;
+    
+}
+/*FORMATANDO O MENU DO SITE*/
+#mnform{
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 1024px; 
+    background-color: rgba(0,255,0,0);
+    line-height:40px;
+}
+
+#mnform ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+
+
+}
+#mnform ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.menuitem{
+    padding: 0px;
+    margin-top: 0px;
+    list-style-type: none; 
+}
+
+.menuitem li{
+    width: 150px;
+    float: left;
+}
+.menuitem li a {
+   display: block; /* todo lugar que eu for dentro do meu li, a tag a vai funcionar.*/ 
+   text-decoration: none;
+   color: #fff;
+   background-color: #00108e;
+   font-size: 15pt;
+}
+
+.menuitem li a:hover{
+    background-color: #00ffff;
+    color: crimson;
+    
+}
+
+.menuitem li ul{
+    list-style-type: none;
+    display: none;
+    padding: 0px;
+}
+.menuitem li:hover ul{
+    display: block;
+}
+/*formatando a tabela*/
+
+#cpTable h3 {
+	font-size: 15pt;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#tabela {
+	border: 1px solid black;
+	background: #FFFFF0;
+	margin-top: 50px;
+	width: 1024px;
+}
+
+#tabela td {
+	border: 1px solid black;
+}
+
+#tabela th {
+	border: 1px solid black;
+    background: #F0FFF0;
+}
+
+/*formatando o formulário*/
+
+#cpform
+{
+  position:relative;
+  left:0%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+#cpform #form
+{
+  position:absolute;
+  display:block;   
+}
+fieldset
+{
+  width:300px;
+  height:250px;
+  background-color: white;
+}
+
+legend
+{
+  font-style:bold;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+#form input.btn
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  /*background-color:#f1ff00;*/
+}
+
+/*formatando a imagem*/
+
+img {
+	width: 20px;
+}
+
